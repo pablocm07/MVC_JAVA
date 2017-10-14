@@ -31,21 +31,28 @@ public class ViewPrincipal extends javax.swing.JFrame {
         jm_menu = new javax.swing.JMenu();
         jmi_mayor = new javax.swing.JMenuItem();
         jmi_ordenar = new javax.swing.JMenuItem();
-        jmi_ordenar2 = new javax.swing.JMenuItem();
+        jmi_operaciones = new javax.swing.JMenuItem();
+        jmi_bloc_notas = new javax.swing.JMenuItem();
+        jmi_salir = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(350, 320));
 
         jm_menu.setText("Archivo");
 
         jmi_mayor.setText("Mayor");
         jm_menu.add(jmi_mayor);
 
-        jmi_ordenar.setText("Ordenar");
+        jmi_ordenar.setText("Operaciones");
         jm_menu.add(jmi_ordenar);
 
-        jmi_ordenar2.setText("Ordenar ++");
-        jm_menu.add(jmi_ordenar2);
+        jmi_operaciones.setText("Ordenar");
+        jm_menu.add(jmi_operaciones);
+
+        jmi_bloc_notas.setText("Bloc de Notas");
+        jm_menu.add(jmi_bloc_notas);
+
+        jmi_salir.setText("Salir");
+        jm_menu.add(jmi_salir);
 
         jmb_Archivo.add(jm_menu);
 
@@ -103,8 +110,10 @@ public class ViewPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jm_menu;
     public javax.swing.JMenuBar jmb_Archivo;
+    public javax.swing.JMenuItem jmi_bloc_notas;
     public javax.swing.JMenuItem jmi_mayor;
+    public javax.swing.JMenuItem jmi_operaciones;
     public javax.swing.JMenuItem jmi_ordenar;
-    public javax.swing.JMenuItem jmi_ordenar2;
+    public javax.swing.JMenuItem jmi_salir;
     // End of variables declaration//GEN-END:variables
 }
