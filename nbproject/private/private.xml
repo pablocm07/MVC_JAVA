@@ -2,6 +2,21 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/controllers/ControllerBlocNotas.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/views/ViewOrdenar.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/views/ViewBlocNotas.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/controllers/ControllerMayor.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/models/ModelPrincipal.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/models/ModelBlocNotas.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/views/ViewOperaciones.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/models/ModelOperaciones.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/views/ViewMayor.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/models/ModelMayor.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/views/ViewPrincipal.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/main/Main.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/controllers/ControllerPrincipal.java</file>
+            <file>file:/C:/Users/tazaz/OneDrive/Documentos/NetBeansProjects/Remedial/src/controllers/ControllerOperaciones.java</file>
+        </group>
     </open-files>
 </project-private>
