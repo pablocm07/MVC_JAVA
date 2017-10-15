@@ -36,6 +36,7 @@ public class ViewMayor extends javax.swing.JPanel {
         jtf_num3 = new javax.swing.JTextField();
         jtf_resultado = new javax.swing.JTextField();
         jbtn_mayor = new javax.swing.JButton();
+        jl_titulo = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(340, 300));
 
@@ -49,34 +50,47 @@ public class ViewMayor extends javax.swing.JPanel {
 
         jbtn_mayor.setText("Mayor");
 
+        jl_titulo.setFont(new java.awt.Font("Gill Sans Ultra Bold", 3, 14)); // NOI18N
+        jl_titulo.setText("Mayor de tres numeros");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(85, Short.MAX_VALUE)
+                .addContainerGap(69, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jl_num1)
-                            .addComponent(jl_resultado)
-                            .addComponent(jl_num3)
-                            .addComponent(jl_num2))
-                        .addGap(37, 37, 37)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jtf_num1)
-                            .addComponent(jtf_num2)
-                            .addComponent(jtf_resultado)
-                            .addComponent(jtf_num3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(83, 83, 83))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jl_resultado)
+                                    .addGap(37, 37, 37)
+                                    .addComponent(jtf_resultado))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jl_num1)
+                                        .addComponent(jl_num3)
+                                        .addComponent(jl_num2))
+                                    .addGap(42, 42, 42)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(jtf_num1)
+                                        .addComponent(jtf_num2)
+                                        .addComponent(jtf_num3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(62, 62, 62)
+                                .addComponent(jbtn_mayor)))
+                        .addGap(77, 77, 77))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jbtn_mayor)
-                        .addGap(136, 136, 136))))
+                        .addComponent(jl_titulo)
+                        .addGap(57, 57, 57))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(45, 45, 45)
+                .addGap(34, 34, 34)
+                .addComponent(jl_titulo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jl_num1)
                     .addComponent(jtf_num1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -88,13 +102,13 @@ public class ViewMayor extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jl_num3)
                     .addComponent(jtf_num3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(13, 13, 13)
+                .addComponent(jbtn_mayor)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jl_resultado)
                     .addComponent(jtf_resultado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(42, 42, 42)
-                .addComponent(jbtn_mayor)
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addGap(43, 43, 43))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -105,6 +119,7 @@ public class ViewMayor extends javax.swing.JPanel {
     public javax.swing.JLabel jl_num2;
     public javax.swing.JLabel jl_num3;
     public javax.swing.JLabel jl_resultado;
+    private javax.swing.JLabel jl_titulo;
     public javax.swing.JTextField jtf_num1;
     public javax.swing.JTextField jtf_num2;
     public javax.swing.JTextField jtf_num3;
